@@ -5,7 +5,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Belarus/Minsk
+      - TZ=Europe/Minsk
       - WEBUI_PORT=8080
     volumes:
       - /srv/dev-disk-by-uuid-b7ce81a0-b0cd-4aaf-9b6c-0e9c70b25431/Pub/AppData/qbittorrent:/config
